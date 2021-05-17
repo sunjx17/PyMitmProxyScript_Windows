@@ -28,7 +28,7 @@ def s2x(S):
 
 class SQLdb:
     def __init__(self):
-        self.db = pymysql.connect(host="localhost",user="root",password="188108",database="animedb")
+        self.db = pymysql.connect(host="localhost",user="root",password="000000",database="animedb")
         self.open=True
         self.cursor = self.db.cursor()
         self.hasGroup=False
